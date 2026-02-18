@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.p
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de configuración locales
+.env
+
+# --- Datos del scraper ---
+data/outputs/pickles/
+data/outputs/csv/
+data/raw_html/
+data/logs/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# --- IDEs y editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
