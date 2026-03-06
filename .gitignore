@@ -19,6 +19,7 @@ data/outputs/pickles/
 data/outputs/csv/
 data/raw_html/
 data/logs/
+DataStorage/
 
 # --- Notebooks ---
 .ipynb_checkpoints/

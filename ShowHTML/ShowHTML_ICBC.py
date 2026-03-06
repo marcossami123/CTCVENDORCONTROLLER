@@ -14,6 +14,7 @@ from requests.exceptions import ConnectionError, Timeout, RequestException
 # =========================================================
 
 BASE_DIR = Path(__file__).resolve()
+print(f"BASE_DIR: {BASE_DIR.parent.name}")
 while BASE_DIR.name != "ctcVendorController":
     BASE_DIR = BASE_DIR.parent
     if BASE_DIR.parent == BASE_DIR:
