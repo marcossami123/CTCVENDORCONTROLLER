@@ -7,10 +7,10 @@ import datetime
 # 📂 Ubicación base del proyecto
 # ---------------------------------------------------------
 BASE_DIR = Path(__file__).resolve()
-while BASE_DIR.name != "ctcVendorController":
+while BASE_DIR.name != "CTCVENDORCONTROLLER":
     BASE_DIR = BASE_DIR.parent
     if BASE_DIR.parent == BASE_DIR:
-        raise FileNotFoundError("❌ No se encontró la carpeta raíz 'ctcVendorController'.")
+        raise FileNotFoundError("❌ No se encontró la carpeta raíz 'CTCVENDORCONTROLLER'.")
 
 DATA_DIR = BASE_DIR / "DataStorage"
 

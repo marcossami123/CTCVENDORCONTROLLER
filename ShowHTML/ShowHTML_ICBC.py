@@ -15,10 +15,10 @@ from requests.exceptions import ConnectionError, Timeout, RequestException
 
 BASE_DIR = Path(__file__).resolve()
 print(f"BASE_DIR: {BASE_DIR.parent.name}")
-while BASE_DIR.name != "ctcVendorController":
+while BASE_DIR.name != "CTCVENDORCONTROLLER":
     BASE_DIR = BASE_DIR.parent
     if BASE_DIR.parent == BASE_DIR:
-        raise FileNotFoundError("No se encontró la carpeta raíz 'ctcVendorController'.")
+        raise FileNotFoundError("No se encontró la carpeta raíz 'CTCVENDORCONTROLLER'.")
 
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))

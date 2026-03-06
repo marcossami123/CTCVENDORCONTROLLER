@@ -10,7 +10,7 @@ from openpyxl.styles import PatternFill
 # 📂 Forzar ctcVendorController al PYTHONPATH
 # ---------------------------------------------------------
 BASE_DIR = Path(__file__).resolve()
-while BASE_DIR.name != "ctcVendorController":
+while BASE_DIR.name != "CTCVENDORCONTROLLER":
     BASE_DIR = BASE_DIR.parent
 
 sys.path.insert(0, str(BASE_DIR))
